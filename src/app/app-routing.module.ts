@@ -122,6 +122,10 @@ const routes: Routes = [
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
+  {
+    path: 'toast',
+    loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
+  },
 
 ];
 
